@@ -20,13 +20,15 @@ import com.miro.miro.model.ItemsDTO;
 
 @RestController
 public class MiroController {
-    //command curl -H -v Authorization: Bearer eyJtaXJvLm9yaWdpbiI6ImV1MDEifQ_h4Z424icB_AytvKP9m2iTRLF1ek GET https://api.miro.com/v2/boards/uXjVM_nWdxc=/items
+    
     String accessToken = "eyJtaXJvLm9yaWdpbiI6ImV1MDEifQ_GtPpcxQ-fWPMfdjhS3aNfsnfhuA";
+    String refreshToken = "eyJtaXJvLm9yaWdpbiI6ImV1MDEifQ_h9AEF1Lvwh2UuuEi7utg04OH3NI";
 
     @RequestMapping("/hello")
     public String hello(){
         return "hello";
     }
+
  
     @GetMapping("/board/items/{boardId}")
     public ItemsDTO getItems(@PathVariable String boardId) {
