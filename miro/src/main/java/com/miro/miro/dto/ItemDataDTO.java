@@ -1,4 +1,4 @@
-package com.miro.miro.model;
+package com.miro.miro.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

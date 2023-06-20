@@ -1,0 +1,594 @@
+2023-06-21T01:36:55.619+07:00  INFO 13008 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 13008 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:36:55.642+07:00  INFO 13008 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:36:57.119+07:00  INFO 13008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:36:57.134+07:00  INFO 13008 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:36:57.137+07:00  INFO 13008 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:36:57.268+07:00  INFO 13008 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:36:57.270+07:00  INFO 13008 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1563 ms
+2023-06-21T01:36:57.983+07:00  INFO 13008 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:36:57.997+07:00  INFO 13008 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 3.132 seconds (process running for 3.686)
+2023-06-21T01:36:58.001+07:00  INFO 13008 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:37:45.787+07:00  INFO 13008 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:37:45.789+07:00  INFO 13008 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:37:45.791+07:00  INFO 13008 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:37:45.833+07:00  WARN 13008 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:37:45.843+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:37:45.844+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10
+2023-06-21T01:37:47.455+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556791219944, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.458+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556801664778, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.460+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563739875, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.461+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563975968, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.463+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816660, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=174, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.464+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816676, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=357, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.466+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816693, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=169, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.467+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816704, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=351, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.468+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816781, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=533, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:37:47.470+07:00  INFO 13008 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816782, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=717, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:19.153+07:00  INFO 4012 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 4012 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:40:19.159+07:00  INFO 4012 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:40:20.562+07:00  INFO 4012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:40:20.579+07:00  INFO 4012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:40:20.580+07:00  INFO 4012 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:40:20.725+07:00  INFO 4012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:40:20.726+07:00  INFO 4012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1493 ms
+2023-06-21T01:40:21.413+07:00  INFO 4012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:40:21.425+07:00  INFO 4012 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 2.896 seconds (process running for 3.437)
+2023-06-21T01:40:21.430+07:00  INFO 4012 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:40:24.734+07:00  INFO 4012 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:40:24.735+07:00  INFO 4012 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:40:24.737+07:00  INFO 4012 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:40:24.791+07:00  WARN 4012 --- [http-nio-8080-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:40:24.804+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:40:24.805+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10
+2023-06-21T01:40:26.572+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556791219944, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.574+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556801664778, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.576+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563739875, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.577+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563975968, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.579+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816660, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=174, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.580+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816676, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=357, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.581+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816693, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=169, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.582+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816704, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=351, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.583+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816781, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=533, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:40:26.584+07:00  INFO 4012 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816782, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=717, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:44:51.690+07:00  INFO 13276 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 13276 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:44:51.696+07:00  INFO 13276 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:44:53.072+07:00  INFO 13276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:44:53.087+07:00  INFO 13276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:44:53.088+07:00  INFO 13276 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:44:53.229+07:00  INFO 13276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:44:53.230+07:00  INFO 13276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2023-06-21T01:44:53.927+07:00  INFO 13276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:44:53.940+07:00  INFO 13276 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 2.859 seconds (process running for 3.431)
+2023-06-21T01:44:53.944+07:00  INFO 13276 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:44:59.020+07:00  INFO 13276 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:44:59.021+07:00  INFO 13276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:44:59.024+07:00  INFO 13276 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:44:59.080+07:00  WARN 13276 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:44:59.094+07:00  INFO 13276 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:44:59.096+07:00  INFO 13276 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10
+2023-06-21T01:45:00.835+07:00 ERROR 13276 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.core.codec.DecodingException: JSON decoding error: Cannot deserialize value of type `java.util.ArrayList<java.lang.String>` from Object value (token `JsonToken.START_OBJECT`)] with root cause
+
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.util.ArrayList<java.lang.String>` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.core.io.buffer.DataBufferInputStream); line: 436, column: 13] (through reference chain: com.miro.miro.dto.ItemsDTO["links"])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1752) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1526) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1473) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.handleNonArray(StringCollectionDeserializer.java:288) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:194) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:184) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.StringCollectionDeserializer.deserialize(StringCollectionDeserializer.java:27) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:392) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:206) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:191) ~[spring-web-6.0.9.jar:6.0.9]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:413) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712) ~[reactor-netty-http-1.1.7.jar:1.1.7]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2023-06-21T01:46:12.529+07:00  INFO 12808 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 12808 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:46:12.534+07:00  INFO 12808 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:46:13.899+07:00  INFO 12808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:46:13.912+07:00  INFO 12808 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:46:13.913+07:00  INFO 12808 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:46:14.048+07:00  INFO 12808 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:46:14.049+07:00  INFO 12808 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1442 ms
+2023-06-21T01:46:14.751+07:00  INFO 12808 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:46:14.765+07:00  INFO 12808 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 2.842 seconds (process running for 3.413)
+2023-06-21T01:46:14.770+07:00  INFO 12808 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:46:21.732+07:00  INFO 12808 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:46:21.733+07:00  INFO 12808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:46:21.735+07:00  INFO 12808 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:46:21.790+07:00  WARN 12808 --- [http-nio-8080-exec-1] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:46:21.804+07:00  INFO 12808 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:46:21.805+07:00  INFO 12808 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10
+2023-06-21T01:46:23.455+07:00 ERROR 12808 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.core.codec.DecodingException: JSON decoding error: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`)] with root cause
+
+com.fasterxml.jackson.databind.exc.MismatchedInputException: Cannot deserialize value of type `java.lang.String` from Object value (token `JsonToken.START_OBJECT`)
+ at [Source: (org.springframework.core.io.buffer.DataBufferInputStream); line: 436, column: 13] (through reference chain: com.miro.miro.dto.ItemsDTO["links"])
+	at com.fasterxml.jackson.databind.exc.MismatchedInputException.from(MismatchedInputException.java:59) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.reportInputMismatch(DeserializationContext.java:1752) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1526) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.handleUnexpectedToken(DeserializationContext.java:1431) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.DeserializationContext.extractScalarFromObject(DeserializationContext.java:943) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.StdDeserializer._parseString(StdDeserializer.java:1424) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:48) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:11) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:129) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:392) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:185) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:2105) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at com.fasterxml.jackson.databind.ObjectReader.readValue(ObjectReader.java:1481) ~[jackson-databind-2.15.0.jar:2.15.0]
+	at org.springframework.http.codec.json.AbstractJackson2Decoder.decode(AbstractJackson2Decoder.java:206) ~[spring-web-6.0.9.jar:6.0.9]
+	at org.springframework.http.codec.json.AbstractJackson2Decoder.lambda$decodeToMono$2(AbstractJackson2Decoder.java:191) ~[spring-web-6.0.9.jar:6.0.9]
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:132) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+	at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:413) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712) ~[reactor-netty-http-1.1.7.jar:1.1.7]
+	at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+	at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2023-06-21T01:47:11.492+07:00  INFO 6644 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 6644 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:47:11.497+07:00  INFO 6644 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:47:12.968+07:00  INFO 6644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:47:12.985+07:00  INFO 6644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:47:12.986+07:00  INFO 6644 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:47:13.136+07:00  INFO 6644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:47:13.138+07:00  INFO 6644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1552 ms
+2023-06-21T01:47:13.862+07:00  INFO 6644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:47:13.874+07:00  INFO 6644 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 2.998 seconds (process running for 3.532)
+2023-06-21T01:47:13.877+07:00  INFO 6644 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:47:17.290+07:00  INFO 6644 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:47:17.291+07:00  INFO 6644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:47:17.294+07:00  INFO 6644 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:47:17.350+07:00  WARN 6644 --- [http-nio-8080-exec-1] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:47:17.364+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:47:17.365+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10
+2023-06-21T01:47:19.203+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556791219944, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.204+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556801664778, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.205+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563739875, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.206+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563975968, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.207+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816660, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=174, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.208+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816676, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=357, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.209+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816693, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=169, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.209+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816704, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=351, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.210+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816781, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=533, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:47:19.211+07:00  INFO 6644 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816782, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=717, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:45.475+07:00  INFO 11928 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 11928 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:54:45.481+07:00  INFO 11928 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:54:46.807+07:00  INFO 11928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:54:46.822+07:00  INFO 11928 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:54:46.823+07:00  INFO 11928 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:54:46.959+07:00  INFO 11928 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:54:46.960+07:00  INFO 11928 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1408 ms
+2023-06-21T01:54:47.632+07:00  INFO 11928 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:54:47.643+07:00  INFO 11928 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 2.777 seconds (process running for 3.336)
+2023-06-21T01:54:47.647+07:00  INFO 11928 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:54:53.262+07:00  INFO 11928 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:54:53.263+07:00  INFO 11928 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:54:53.265+07:00  INFO 11928 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:54:53.315+07:00  WARN 11928 --- [http-nio-8080-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:54:53.328+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:54:53.329+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10
+2023-06-21T01:54:55.057+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556791219944, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.059+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556801664778, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.060+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563739875, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.061+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563975968, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.062+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816660, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=174, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.063+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816676, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=357, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.064+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816693, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=169, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.065+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816704, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=351, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.066+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816781, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=533, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:54:55.066+07:00  INFO 11928 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816782, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=717, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:55:26.172+07:00  INFO 11928 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:55:26.173+07:00  INFO 11928 --- [http-nio-8080-exec-1] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10MzQ1ODc2NDU1NzU2NDgxNjc4M34=
+2023-06-21T01:55:26.423+07:00 ERROR 11928 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$BadRequest: 400 Bad Request from GET https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10MzQ1ODc2NDU1NzU2NDgxNjc4M34%3D] with root cause
+
+org.springframework.web.reactive.function.client.WebClientResponseException$BadRequest: 400 Bad Request from GET https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10MzQ1ODc2NDU1NzU2NDgxNjc4M34%3D
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-6.0.9.jar:6.0.9]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ? 400 BAD_REQUEST from GET https://api.miro.com/v2/boards/uXjVM_nWdxc=/items [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-6.0.9.jar:6.0.9]
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:213) ~[spring-webflux-6.0.9.jar:6.0.9]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:413) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712) ~[reactor-netty-http-1.1.7.jar:1.1.7]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.Mono.block(Mono.java:1710) ~[reactor-core-3.5.6.jar:3.5.6]
+		at com.miro.miro.controller.ItemController.getItems(ItemController.java:50) ~[main/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2023-06-21T01:56:12.236+07:00  INFO 11792 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 11792 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:56:12.241+07:00  INFO 11792 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:56:13.630+07:00  INFO 11792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:56:13.649+07:00  INFO 11792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:56:13.649+07:00  INFO 11792 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:56:13.797+07:00  INFO 11792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:56:13.798+07:00  INFO 11792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1486 ms
+2023-06-21T01:56:14.494+07:00  INFO 11792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:56:14.506+07:00  INFO 11792 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 2.92 seconds (process running for 3.589)
+2023-06-21T01:56:14.510+07:00  INFO 11792 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:56:18.043+07:00  INFO 11792 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:56:18.044+07:00  INFO 11792 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:56:18.047+07:00  INFO 11792 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-06-21T01:56:18.100+07:00  WARN 11792 --- [http-nio-8080-exec-3] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:56:18.115+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:56:18.116+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=
+2023-06-21T01:56:19.815+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556791219944, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.816+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556801664778, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.817+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563739875, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.818+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563975968, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.819+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816660, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=174, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.820+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816676, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=357, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.822+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816693, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=169, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.823+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816704, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=351, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.824+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816781, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=533, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:19.826+07:00  INFO 11792 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816782, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=717, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:39.594+07:00  INFO 11792 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:56:39.595+07:00  INFO 11792 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=MzQ1ODc2NDU1NzU2NDgxNjc4M34=
+2023-06-21T01:56:39.881+07:00  INFO 11792 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816783, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=528, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:56:39.882+07:00  INFO 11792 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816784, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=711, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:57:06.561+07:00  INFO 11792 --- [http-nio-8080-exec-4] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:57:06.562+07:00  INFO 11792 --- [http-nio-8080-exec-4] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=null
+2023-06-21T01:57:06.830+07:00 ERROR 11792 --- [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.reactive.function.client.WebClientResponseException$BadRequest: 400 Bad Request from GET https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=null] with root cause
+
+org.springframework.web.reactive.function.client.WebClientResponseException$BadRequest: 400 Bad Request from GET https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=null
+	at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-6.0.9.jar:6.0.9]
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ? 400 BAD_REQUEST from GET https://api.miro.com/v2/boards/uXjVM_nWdxc=/items [DefaultWebClient]
+Original Stack Trace:
+		at org.springframework.web.reactive.function.client.WebClientResponseException.create(WebClientResponseException.java:308) ~[spring-webflux-6.0.9.jar:6.0.9]
+		at org.springframework.web.reactive.function.client.DefaultClientResponse.lambda$createException$1(DefaultClientResponse.java:213) ~[spring-webflux-6.0.9.jar:6.0.9]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:106) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxOnErrorReturn$ReturnSubscriber.onNext(FluxOnErrorReturn.java:162) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxDefaultIfEmpty$DefaultIfEmptySubscriber.onNext(FluxDefaultIfEmpty.java:122) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:129) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxContextWrite$ContextWriteSubscriber.onNext(FluxContextWrite.java:107) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableConditionalSubscriber.onNext(FluxMapFuseable.java:299) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxFilterFuseable$FilterFuseableConditionalSubscriber.onNext(FluxFilterFuseable.java:337) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.Operators$BaseFluxToMonoOperator.completePossiblyEmpty(Operators.java:2071) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.MonoCollect$CollectSubscriber.onComplete(MonoCollect.java:145) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onComplete(FluxPeek.java:260) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:144) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:413) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at reactor.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:431) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at reactor.netty.channel.ChannelOperations.terminate(ChannelOperations.java:485) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at reactor.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:712) ~[reactor-netty-http-1.1.7.jar:1.1.7]
+		at reactor.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:113) ~[reactor-netty-core-1.1.7.jar:1.1.7]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireChannelRead(CombinedChannelDuplexHandler.java:436) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.CombinedChannelDuplexHandler.channelRead(CombinedChannelDuplexHandler.java:251) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1383) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.ssl.SslHandler.decodeJdkCompatible(SslHandler.java:1246) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1295) ~[netty-handler-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:529) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:468) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+		at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.92.Final.jar:4.1.92.Final]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:99) ~[reactor-core-3.5.6.jar:3.5.6]
+		at reactor.core.publisher.Mono.block(Mono.java:1710) ~[reactor-core-3.5.6.jar:3.5.6]
+		at com.miro.miro.controller.ItemController.getItems(ItemController.java:50) ~[main/:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[na:na]
+		at java.base/java.lang.reflect.Method.invoke(Unknown Source) ~[na:na]
+		at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.8.jar:6.0]
+		at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.9.jar:6.0.9]
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.8.jar:6.0]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.9.jar:6.0.9]
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.8.jar:10.1.8]
+		at java.base/java.lang.Thread.run(Unknown Source) ~[na:na]
+
+2023-06-21T01:59:20.120+07:00  INFO 11864 --- [main] com.miro.miro.MiroApplication            : Starting MiroApplication using Java 17.0.6 with PID 11864 (C:\Projects\miro\miro\bin\main started by Konstantin in C:\Projects\miro\miro)
+2023-06-21T01:59:20.125+07:00  INFO 11864 --- [main] com.miro.miro.MiroApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-06-21T01:59:21.528+07:00  INFO 11864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-21T01:59:21.546+07:00  INFO 11864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-21T01:59:21.547+07:00  INFO 11864 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-21T01:59:21.694+07:00  INFO 11864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-21T01:59:21.695+07:00  INFO 11864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1501 ms
+2023-06-21T01:59:22.395+07:00  INFO 11864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-21T01:59:22.407+07:00  INFO 11864 --- [main] com.miro.miro.MiroApplication            : Started MiroApplication in 2.912 seconds (process running for 3.528)
+2023-06-21T01:59:22.410+07:00  INFO 11864 --- [main] com.miro.miro.MiroApplication            : Start Logging
+2023-06-21T01:59:25.252+07:00  INFO 11864 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-21T01:59:25.253+07:00  INFO 11864 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-21T01:59:25.255+07:00  INFO 11864 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-21T01:59:25.305+07:00  WARN 11864 --- [http-nio-8080-exec-2] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: com.miro.miro.controller.ItemController
+2023-06-21T01:59:25.319+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:59:25.319+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=
+2023-06-21T01:59:27.109+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556791219944, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.111+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556801664778, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.112+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563739875, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.113+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563975968, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.114+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816660, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=174, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.115+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816676, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=357, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.117+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816693, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=169, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.118+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816704, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=351, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.120+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816781, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=533, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:27.121+07:00  INFO 11864 --- [http-nio-8080-exec-2] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816782, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=717, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:37.182+07:00  INFO 11864 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:59:37.182+07:00  INFO 11864 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=MzQ1ODc2NDU1NzU2NDgxNjc4M34=
+2023-06-21T01:59:37.467+07:00  INFO 11864 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816783, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=528, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:37.468+07:00  INFO 11864 --- [http-nio-8080-exec-3] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816784, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=711, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.455+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:59:39.455+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=
+2023-06-21T01:59:39.719+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556791219944, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.721+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764556801664778, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=-141, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.722+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563739875, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=1, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.722+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557563975968, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=-215, y=31, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.723+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816660, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=174, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.724+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816676, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=357, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.725+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816693, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=169, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.726+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816704, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=351, y=28, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.727+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816781, type=shape, data=ItemDataDTO(content=, shape=circle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=533, y=-139, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:39.729+07:00  INFO 11864 --- [http-nio-8080-exec-6] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816782, type=shape, data=ItemDataDTO(content=, shape=rectangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=717, y=-140, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:41.930+07:00  INFO 11864 --- [http-nio-8080-exec-5] c.miro.miro.controller.ItemController    : Board id: uXjVM_nWdxc=
+2023-06-21T01:59:41.931+07:00  INFO 11864 --- [http-nio-8080-exec-5] c.miro.miro.controller.ItemController    : URL: https://api.miro.com/v2/boards/uXjVM_nWdxc=/items?limit=10&cursor=MzQ1ODc2NDU1NzU2NDgxNjc4M34=
+2023-06-21T01:59:42.149+07:00  INFO 11864 --- [http-nio-8080-exec-5] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816783, type=shape, data=ItemDataDTO(content=, shape=star), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=528, y=25, origin=center, relativeTo=canvas_center))
+2023-06-21T01:59:42.150+07:00  INFO 11864 --- [http-nio-8080-exec-5] c.miro.miro.controller.ItemController    : Item: ItemDTO(id=3458764557564816784, type=shape, data=ItemDataDTO(content=, shape=triangle), style=ItemStyleDTO(fillColor=#ffffff, fillOpacity=0.0, fontFamily=open_sans, fontSize=14, borderColor=#1a1a1a, borderWidth=2.0, borderOpacity=1.0, borderStyle=normal, textAlign=left, textAlignVertical=top, color=#1a1a1a), position=ItemPositionDTO(x=711, y=28, origin=center, relativeTo=canvas_center))

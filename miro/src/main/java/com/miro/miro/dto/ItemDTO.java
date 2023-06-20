@@ -1,4 +1,4 @@
-package com.miro.miro.model;
+package com.miro.miro.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -9,9 +9,11 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 
-public class ItemPositionDTO {
-    int x;
-    int y;
-    String origin;
-    String relativeTo;
+public class ItemDTO {
+    
+    String id;
+    String type; 
+    ItemDataDTO data;
+    ItemStyleDTO style;
+    ItemPositionDTO position;
 }

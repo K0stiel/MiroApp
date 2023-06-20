@@ -1,4 +1,4 @@
-package com.miro.miro.model;
+package com.miro.miro.dto;
 
 import java.util.List;
 
@@ -13,5 +13,9 @@ import lombok.NoArgsConstructor;
 
 public class ItemsDTO {
     
+    int size;
+    int limit;
+    int total;
     List<ItemDTO> data;
+    String cursor;
 }
